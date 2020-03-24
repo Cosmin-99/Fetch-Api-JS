@@ -1,0 +1,160 @@
+@font-face {
+
+    font-family: 'Font Awesome 5 Free';
+    
+    font-style: normal;
+    
+    font-weight: 900;
+    
+    font-display: auto;
+    
+    src: url("webfonts/fa-solid-900.eot");
+    
+    src: url("webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.woff") format("woff"), url("../webfonts/fa-solid-900.ttf") format("truetype"), url("../webfonts/fa-solid-900.svg#fontawesome") format("svg");
+    
+}
+
+
+
+.menu-content nav ul li {
+    list-style: none;
+    top: -16px;
+    height: 82.5px;
+    padding: none;
+    width: 133px;
+    position: relative;
+    right: 40px;
+    background-color: #92b9b9;
+}
+
+.header{
+    background-color: #002966;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    height: 80px;
+}
+
+#flex #table #footer #head {
+    display: flex;
+}
+
+#table{
+    background-color: #c2d6d6;
+    position: absolute;
+    top: 101.8px;
+    left: 140px;
+    width: 1388px;
+}
+
+#pencil{
+    position: relative;
+    left: 20px;
+    border: none;
+}
+
+#trash{
+    position: relative;
+    left: 30px;
+    border: none;
+}
+
+#lane1{
+    background-color: #e0ebeb;
+    flex-grow: 1;
+}
+
+#lane2{
+    background-color: white;
+    flex-grow: 1;
+}
+
+#lane3{
+    background-color:#e0ebeb;
+    flex-grow: 1;
+}
+
+#lane4{
+    background-color: white;
+    flex-grow: 1;
+}
+
+#lanefooter{
+    background-color: #e0ebeb;
+    flex-grow: 1;
+}
+
+#pencil{
+    width: 100px;
+}
+
+#trash{
+    width: 200px;
+}
+
+td  {
+    border: 1px solid black;
+    height: 40px;
+    flex-grow: 1;
+}
+
+#tr1{
+    flex-grow: 1;
+}
+
+.menu nav ul li a {
+    color: blue;
+    text-decoration: none;
+}
+
+.menu nav ul li a:hover {
+    background-color: #c2d6d6;
+}
+
+.menu nav ul li #button:hover {
+    transform: rotate(90deg);
+}
+
+.menu-button{
+    background-color: #92b9b9;
+    padding: 33px;
+    left: 30px;
+}
+
+#user{
+    font-size: 20px;
+}
+
+#shop {
+    font-size: 20px;
+}
+
+#bars{
+    font-size: 20px;
+}
+
+.fancy-checkbox input[type="checkbox"],
+.fancy-checkbox .checked {
+    display: none;
+}
+ 
+.fancy-checkbox input[type="checkbox"]:checked ~ .checked
+{
+    display: inline-block;
+    font-size: 20px;
+}
+ 
+.fancy-checkbox input[type="checkbox"]:checked ~ .unchecked
+{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+ 
